@@ -1,6 +1,7 @@
 'Author: hernanda472@gmail.com'
 
 import turtle
+
 colors = ['red', 'purple', 'blue', 'green']
 for x in range (90):
     turtle.pencolor(colors[x%4])
